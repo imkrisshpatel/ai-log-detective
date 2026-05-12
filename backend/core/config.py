@@ -14,8 +14,11 @@ class Settings(BaseSettings):
     THREAT_KEYWORDS: List[str] = ["error", "critical", "breach", "unauthorized", "failed"]
     # These will be pulled from your .env file
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
+    # Add our new switch here!
+    USE_MOCK_AI: bool = True
     
     class Config:
         case_sensitive = True
+        env_file = '.env'
 
 settings = Settings()
