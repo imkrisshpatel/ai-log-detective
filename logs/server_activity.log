@@ -1,0 +1,3 @@
+[INFO] 2026-05-12 08:15:02 - User 'admin' logged in successfully.
+[ERROR] 2026-05-12 09:30:45 - Database connection timeout. Retrying...
+[CRITICAL] 2026-05-12 10:14:12 - Unauthorized access attempt from IP 192.168.1.50

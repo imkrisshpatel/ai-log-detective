@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ==========================================
+# SENTINEL CUSTOM OVERRIDES
+# ==========================================
+
+# 1. Protect the Filing Cabinet (Do NOT push the actual data)
+sentinel.db
+sentinel.db-journal
+
+# 2. Keep the Demo Logs (DO push these so the app doesn't crash)
+!logs/
+!logs/*.log
+
+# 3. Protect your AI budget and keys
+.env
