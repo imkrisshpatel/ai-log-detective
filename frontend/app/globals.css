@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sentinel: #ff8c00;
+  --color-dark-panel: #0f0f0f;
+  --color-void: #050505;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
